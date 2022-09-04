@@ -13,3 +13,18 @@
   background: #292929;
   padding-top: 200px;
 }
+
+.title {
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.title h1 {
+  font-size: 70px;
+  font-weight: 500;
+  position: relative;
+  z-index: 10;
+}
