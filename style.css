@@ -43,4 +43,10 @@
   font-weight: 700;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
   -webkit-text-fill-color: transparent;
+  transform: translateY(100px);
+  transition: transform 1s;
+}
+
+.back-text span.active {
+  transform: translateY(0px);
 }
